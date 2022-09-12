@@ -1,12 +1,13 @@
 alert('welcome');
 
+let question = document.getElementById('question');
+
+
 const vocaMap = new Map();
 vocaMap.set('hello', 'hallo');
 vocaMap.set('ship', 'Schiff');
 
-let vocaList = [];
+question.innerText = 'hello';
 
-vocaList.push('hello', 'hallo');
-vocaList.push('thanks', 'danke');
 
 console.log(vocaMap);
